@@ -1,0 +1,184 @@
+body {
+    background-image: url("../css/light-grey-terrazzo/light-grey-terrazzo.png");
+    background-color: grey;
+}
+
+header {
+    border-bottom: 3px lightgrey solid; 
+    background: white;
+    top: 0;
+    position: relative;
+    
+    
+}
+
+#logobox {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    /* width: max-content; */
+    padding: 21px;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+h1#name {
+    color: white;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: #777777;
+    padding: 20px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+a:hover, a:active {
+    background-color: #777777;
+    color: white;
+}
+
+.nav {
+    text-align: right;
+    line-height: 3.5em;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#navbar {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+#nick {
+    background: #fff;
+    color: #333;
+    float: left;
+    padding: 1em;
+    margin-left: 1.5em;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+p {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color: #777777;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 960px;
+    background: white;
+    padding: 1em;
+    border: 2px;
+    border-color: #dddddd;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divider { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    color: lightgray;
+}
+
+#name1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mail {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#msg {
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #4aaaa5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+#tealbar {
+    height: 5px;
+    width: 100%;
+    background: #4aaaa5;
+    margin: 0;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    height: 50px;
+    
+}
+
+#copyright {
+    color: white;
+    padding-top: 15px;
+    font-size: small;
+}
+
+figure.portfolioItem {
+    position: relative;
+    width: 31%;
+    margin: 1em .5em;
+    height: auto;
+    float: left;
+}
+
+.portfolioItem figcaption {
+    position: absolute;
+    background: #4aaaa5;
+    padding: .5em 3px .5em 0;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    bottom: 10px
+}
